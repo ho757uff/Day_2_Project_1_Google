@@ -1,0 +1,123 @@
+body {
+  background-color: #ffffff;
+  margin: 10px auto;
+  max-width: auto;
+  max-height: fit-content;
+  font-family: Arial, sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  color: #333333;
+  line-height: 1.4;
+}
+
+.flex_headers {
+  display: flex;
+  justify-content: flex-end;
+  gap: 20px;
+  color: #555555;
+  padding-right: 20px;
+}
+.flex_headers a {
+  color: #202124;
+  text-decoration: none;
+}
+
+.flex_headers_apps_button {
+  display: flex;
+  justify-content: flex-end;
+  height: 15px;
+  width: 15px;
+  display: inline-block;
+  outline: none;
+  vertical-align: middle;
+  border-radius: 2px;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.flex_logo {
+display: flex;
+justify-content: center;
+align-items: center;
+padding-top: 80px;
+}
+
+.flex_searchbar_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+}
+.flex_searchbar {
+  width: 550px;
+  height: 40px;
+  border-radius: 20px;
+  padding: 0 10px;
+  font-size: 16px;
+}
+.flex_searchbar_buttons {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  align-items: center;
+}
+.flex_searchbar_buttons button {
+  padding: 10px 30px;
+  border-radius: 5px;
+  color: #202124;
+  background-color: #f8f9fa;
+  border: none;
+  cursor: pointer;
+}
+.flex_searchbar_buttons button:hover {
+  background-color: #e0e0e0;
+}
+
+
+.flex_country {
+  background-color: #f8f9fa;
+  position: absolute;
+  bottom: 100px;
+  left: 0;
+  right: 0;
+  padding: 15px 30px;
+  color: #70757a;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.flex_greenwashing {
+  border-top: 1px solid #dfe8f0;
+  background-color: #f8f9fa;
+  position: absolute;
+  bottom: 50px;
+  left: 0;
+  right: 0;
+  padding: 15px 30px;
+  display: flex;
+  justify-content: center;
+}
+.flex_greenwashing a:hover {
+    text-decoration: underline !important;
+}
+
+.flex_footers {
+  background-color: #f8f9fa;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 15px 30px;
+  color: #70757a;
+  display: flex;
+  justify-content: space-between; /* Move this line here */
+  flex-wrap: wrap;
+}
+.flex_footers a {
+  color: gray;
+  text-decoration: none;
+}
+.flex_footers a:hover {
+  text-decoration: underline !important;
+}
